@@ -1,0 +1,50 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  /*From CSS Tricks - Perfect Full Page Background Image*/ 
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover; /* Incl webkit*/ 
+  -moz-background-size: cover; /* Incl Mozilla*/
+  -o-background-size: cover; /* Incl Opera*/
+  background-size: cover;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #e2dbdb;
+}
+
+hr {
+	border-width: 3px;
+	border-color: #f58c21;
+	max-width: 65px;
+}
+
+.buffer {
+	height: 20rem;
+}
+/*Changing properties of default Bootstrap class*/
+.btn {
+	font-weight:700;
+	border-radius: 300px;
+	text-transform: uppercase;
+}
+
+/*Changing properties of default Bootstrap class*/
+.btn-primary {
+	background-color: #f58c21;
+	border-color: #f58c21; 	
+}
+
+/*Changing properties of default Bootstrap class when hovering*/
+.btn-primary:hover{
+	background-color: #ee4b08;
+	border-color: #ee4b08; 	
+	border-width: 4px;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
